@@ -1,0 +1,145 @@
+[
+  {
+    "ticker": "466100",
+    "name": "클로봇",
+    "listDate": "2024-10-25",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2024.10, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20241007_B_jongsun.park_2211.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 381, "op": -18, "ni": -14 }, "actual": { "rev": 230.0, "op": -73.9, "ni": -64.2 } },
+      { "year": "2025", "guide": { "rev": 654, "op": 46, "ni": 50 }, "actual": { "rev": 233.8, "op": -43.9, "ni": -34.6 } },
+      { "year": "2026", "guide": { "rev": 879, "op": 130, "ni": 131 }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "061090",
+    "name": "세나테크놀로지",
+    "listDate": "2025-11-14",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.10, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail//20251024_B_jongsun.park_2466.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2025", "guide": { "rev": 2000, "op": 285, "ni": 251 }, "actual": { "rev": 1792.9, "op": 162.9, "ni": 167.1 } },
+      { "year": "2026", "guide": { "rev": 2349, "op": 345, "ni": 299 }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "462980",
+    "name": "아이지넷",
+    "listDate": "2025-02-03",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.01, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail//20250110_B_jongsun.park_2287.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 220, "op": 1, "ni": 1 }, "actual": { "rev": 233.4, "op": 3.5, "ni": 1.5 } },
+      { "year": "2025", "guide": { "rev": 418, "op": 44, "ni": 44 }, "actual": { "rev": 390.2, "op": 33.3, "ni": 25.6 } },
+      { "year": "2026", "guide": { "rev": 768, "op": 139, "ni": 110 }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "096250",
+    "name": "와이즈넛",
+    "listDate": "2025-01-24",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.01, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20250106_B_jongsun.park_2280.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 376, "op": 22, "ni": 32 }, "actual": { "rev": 349.2, "op": 17.0, "ni": 30.5 } },
+      { "year": "2025", "guide": { "rev": 543, "op": 109, "ni": 85 }, "actual": { "rev": 347.3, "op": 1.1, "ni": 17.5 } },
+      { "year": "2026", "guide": { "rev": 835, "op": 238, "ni": 186 }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "494120",
+    "name": "큐리오시스",
+    "listDate": "2025-11-13",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.10, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20251027_B_jongsun.park_2467.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2025", "guide": { "rev": 102, "op": -29, "ni": -29 }, "actual": { "rev": 73.0, "op": -75.3, "ni": -78.6 } },
+      { "year": "2026", "guide": { "rev": 208, "op": 27, "ni": 28 }, "actual": null },
+      { "year": "2027", "guide": { "rev": 329, "op": 97, "ni": 100 }, "actual": null },
+      { "year": "2028", "guide": { "rev": 472, "op": 182, "ni": 186 }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "475830",
+    "name": "오름테라퓨틱",
+    "listDate": "2025-02-14",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.01, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20250120_B_jongsun.park_2289.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 209, "op": -104, "ni": -37 }, "actual": { "rev": 209.1, "op": -83.4, "ni": -57.4 } },
+      { "year": "2025", "guide": { "rev": 370, "op": -96, "ni": -66 }, "actual": { "rev": 0.02, "op": -517.6, "ni": -419.7 } },
+      { "year": "2026", "guide": { "rev": 752, "op": 315, "ni": 347 }, "actual": null }
+    ],
+    "note": "2025년 실적은 예정됐던 파트너십 마일스톤/라이선스 매출 인식이 지연되며 가이던스 대비 매출이 사실상 발생하지 않아 손실 폭이 크게 확대된 사례입니다."
+  },
+  {
+    "ticker": "473980",
+    "name": "노머스",
+    "listDate": "2024-11-12",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2024.10, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20241023_B_jongsun.park_2221.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 690, "op": 110, "ni": 121 }, "actual": { "rev": 689.1, "op": 81.8, "ni": 98.8 } },
+      { "year": "2025", "guide": { "rev": 1046, "op": 308, "ni": 266 }, "actual": { "rev": 757.3, "op": 123.4, "ni": 148.5 } }
+    ]
+  },
+  {
+    "ticker": "475400",
+    "name": "씨메스",
+    "listDate": "2024-10-28",
+    "sourceNote": "ZDNet Korea 특례상장 재점검 기사(증권신고서 추정치 인용) — 별도기준. 순이익 가이던스는 원자료에서 확인하지 못했습니다.",
+    "sourceUrl": "https://zdnet.co.kr/view/?no=20260819151516",
+    "unit": "억원",
+    "rows": [
+      { "year": "2024", "guide": { "rev": 123, "op": -76, "ni": null }, "actual": { "rev": 68.9, "op": -142.9, "ni": -134.6 } },
+      { "year": "2025", "guide": { "rev": 219, "op": -30, "ni": null }, "actual": { "rev": 130.6, "op": -184.1, "ni": -167.8 } },
+      { "year": "2026", "guide": { "rev": 425, "op": 107, "ni": null }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "081180",
+    "name": "쎄크",
+    "listDate": "2025-04-28",
+    "sourceNote": "Bloter 특례상장 재점검 기사 + Asiae 보도(증권신고서 추정치 인용). 2025·2027년 순이익 가이던스는 원자료에서 확인하지 못했습니다.",
+    "sourceUrl": "https://www.bloter.net/news/articleView.html?idxno=644004",
+    "unit": "억원",
+    "rows": [
+      { "year": "2025", "guide": { "rev": 725, "op": 55, "ni": null }, "actual": { "rev": 530.6, "op": -30.6, "ni": -37.9 } },
+      { "year": "2026", "guide": { "rev": 1044, "op": 154, "ni": 121 }, "actual": null },
+      { "year": "2027", "guide": { "rev": 1098, "op": 166, "ni": null }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "376270",
+    "name": "에이치이엠파마",
+    "listDate": "2024-11-05",
+    "sourceNote": "Bloter 특례상장 재점검 기사(증권신고서 추정치 인용). 순이익 가이던스와 2026년 영업이익 구체 수치는 원자료에서 확인하지 못했습니다(2026년은 '흑자전환'으로만 서술).",
+    "sourceUrl": "https://www.bloter.net/news/articleView.html?idxno=643215",
+    "unit": "억원",
+    "rows": [
+      { "year": "2025", "guide": { "rev": 268, "op": -35, "ni": null }, "actual": { "rev": 129.8, "op": -155.8, "ni": -237.2 } },
+      { "year": "2026", "guide": { "rev": 558, "op": null, "ni": null, "opNote": "흑자전환(구체 수치 비공개)" }, "actual": null },
+      { "year": "2027", "guide": { "rev": 896, "op": 206, "ni": null }, "actual": null }
+    ]
+  },
+  {
+    "ticker": "491000",
+    "name": "리브스메드",
+    "listDate": "2025-12-24",
+    "sourceNote": "유진투자증권 IPO 프리뷰 리포트(2025.12, 상장 전 배포) — 증권신고서 추정 손익계산서 인용",
+    "sourceUrl": "https://www.eugenefn.com/common/files/amail/20251204_B3520_hskwon_309.pdf",
+    "unit": "억원",
+    "rows": [
+      { "year": "2025", "guide": { "rev": 546, "op": -120, "ni": -120 }, "actual": { "rev": 511.9, "op": -226.4, "ni": -228.7 } },
+      { "year": "2026", "guide": { "rev": 1508, "op": 143, "ni": 152 }, "actual": null },
+      { "year": "2027", "guide": { "rev": 3213, "op": 785, "ni": 710 }, "actual": null }
+    ]
+  }
+]
