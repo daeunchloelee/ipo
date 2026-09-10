@@ -724,36 +724,55 @@ function gdCell(guideVal, actualEntry){
 
 function renderGuidancePanel(x, key){
   const existing = USER_GUIDANCE[key];
-  if(existing && !FORM_OPEN.has(key)) return renderGuidanceCard(x, key, existing);
-  return renderGuidanceForm(x, key, existing);
+  if(FORM_OPEN.has(key)) return renderGuidanceForm(x, key, existing);
+  return renderGuidanceCard(x, key, existing);
+}
+
+// 저장된 가이던스 연도 + DART 실제 실적이 있는 연도(2024년~)를 합쳐서 보여준다.
+// 가이던스를 아직 입력하지 않았거나 상장 이전 연도라도 실제 실적은 있으면 표시된다.
+function mergedRows(ticker, savedRows){
+  const byYear = {};
+  (savedRows||[]).forEach(r=>{ byYear[r.year] = r.guide; });
+  const actualYears = Object.keys((ACTUALS.years && ACTUALS.years[ticker]) || {});
+  actualYears.forEach(y=>{ if(Number(y)>=2024 && !(y in byYear)) byYear[y] = {rev:null,op:null,ni:null}; });
+  return Object.keys(byYear).sort().map(y=>({year:y, guide:byYear[y]}));
 }
 
 function renderGuidanceCard(x, key, entry){
-  const rows = entry.rows.map(r=>{
+  const ticker = x.ticker || "";
+  const rows = mergedRows(ticker, entry ? entry.rows : []);
+  const rowsHtml = rows.map(r=>{
     const yr = r.year;
+    const af = actualFor(ticker, yr);
     return `
       <tr>
         <td class="yr">${yr}</td>
-        <td>${gdCell(r.guide.rev, actualFor(entry.ticker, yr) && {value:actualFor(entry.ticker,yr).rev, period:actualFor(entry.ticker,yr).period, isFullYear:actualFor(entry.ticker,yr).isFullYear})}</td>
-        <td>${gdCell(r.guide.op, actualFor(entry.ticker, yr) && {value:actualFor(entry.ticker,yr).op, period:actualFor(entry.ticker,yr).period, isFullYear:actualFor(entry.ticker,yr).isFullYear})}</td>
-        <td>${gdCell(r.guide.ni, actualFor(entry.ticker, yr) && {value:actualFor(entry.ticker,yr).ni, period:actualFor(entry.ticker,yr).period, isFullYear:actualFor(entry.ticker,yr).isFullYear})}</td>
+        <td>${gdCell(r.guide.rev, af && {value:af.rev, period:af.period, isFullYear:af.isFullYear})}</td>
+        <td>${gdCell(r.guide.op, af && {value:af.op, period:af.period, isFullYear:af.isFullYear})}</td>
+        <td>${gdCell(r.guide.ni, af && {value:af.ni, period:af.period, isFullYear:af.isFullYear})}</td>
       </tr>`;
   }).join("");
+  const tableHtml = rowsHtml
+    ? `<table class="gd-table">
+        <thead><tr><th style="width:60px;">연도</th><th>매출액</th><th>영업이익</th><th>당기순이익</th></tr></thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>`
+    : `<p class="gd-form-hint">아직 실제 실적·가이던스 데이터가 없습니다.</p>`;
+  const actionsHtml = entry
+    ? `<button type="button" data-action="edit-guide" data-key="${key.replace(/"/g,'&quot;')}">✏️ 가이던스 수정</button>
+       <button type="button" class="danger" data-action="delete-guide" data-key="${key.replace(/"/g,'&quot;')}">삭제</button>`
+    : `<button type="button" class="primary" data-action="edit-guide" data-key="${key.replace(/"/g,'&quot;')}">+ 가이던스 입력</button>`;
   return `
     <div class="gd-card">
       <div class="gd-head">
         <div class="name">${x.name}<span class="ticker">${x.ticker||""}</span></div>
         <div class="meta">${x.market||""} · 상장일 ${x.listDate||"-"}</div>
       </div>
-      ${entry.note?`<div class="gd-note">${entry.note}</div>`:""}
-      <table class="gd-table">
-        <thead><tr><th style="width:60px;">연도</th><th>매출액</th><th>영업이익</th><th>당기순이익</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-      ${entry.sourceNote || entry.sourceUrl ? `<div class="gd-src">출처: ${entry.sourceUrl?`<a href="${entry.sourceUrl}" target="_blank" rel="noopener">${entry.sourceNote||entry.sourceUrl}</a>`:(entry.sourceNote||"")}</div>` : ""}
+      ${entry && entry.note?`<div class="gd-note">${entry.note}</div>`:""}
+      ${tableHtml}
+      ${entry && (entry.sourceNote || entry.sourceUrl) ? `<div class="gd-src">출처: ${entry.sourceUrl?`<a href="${entry.sourceUrl}" target="_blank" rel="noopener">${entry.sourceNote||entry.sourceUrl}</a>`:(entry.sourceNote||"")}</div>` : ""}
       <div class="gd-actions">
-        <button type="button" data-action="edit-guide" data-key="${key.replace(/"/g,'&quot;')}">✏️ 수정</button>
-        <button type="button" class="danger" data-action="delete-guide" data-key="${key.replace(/"/g,'&quot;')}">삭제</button>
+        ${actionsHtml}
       </div>
     </div>`;
 }
@@ -843,7 +862,6 @@ function handleGuideFormAction(action, key, btn){
   }
   if(action==="cancel-guide"){
     FORM_OPEN.delete(key);
-    if(!USER_GUIDANCE[key]) EXPANDED.delete(key);
     renderTable();
     return;
   }
