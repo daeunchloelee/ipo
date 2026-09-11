@@ -1153,7 +1153,7 @@
   },
   {
     "name": "이지스",
-    "ticker": "",
+    "ticker": "261520",
     "market": "코스닥",
     "listDate": "2025-12-11",
     "ipoPrice": 15000,
@@ -1177,7 +1177,7 @@
   },
   {
     "name": "티엠씨",
-    "ticker": "",
+    "ticker": "217590",
     "market": "코스피",
     "listDate": "2025-12-15",
     "ipoPrice": 9300,
@@ -1273,7 +1273,7 @@
   },
   {
     "name": "인벤테라",
-    "ticker": "",
+    "ticker": "0007J0",
     "market": "코스닥",
     "listDate": "2026-04-02",
     "ipoPrice": 16600,
@@ -1285,7 +1285,7 @@
   },
   {
     "name": "채비",
-    "ticker": "",
+    "ticker": "0011T0",
     "market": "코스닥",
     "listDate": "2026-04-29",
     "ipoPrice": 12300,
@@ -1297,7 +1297,7 @@
   },
   {
     "name": "피스피스스튜디오",
-    "ticker": "",
+    "ticker": "0117P0",
     "market": "코스닥",
     "listDate": "2026-06-08",
     "ipoPrice": 21500,
@@ -1309,7 +1309,7 @@
   },
   {
     "name": "져스텍",
-    "ticker": "",
+    "ticker": "153890",
     "market": "코스닥",
     "listDate": "2026-06-29",
     "ipoPrice": 12500,
@@ -1321,7 +1321,7 @@
   },
   {
     "name": "스트라드비젼",
-    "ticker": "",
+    "ticker": "475040",
     "market": "코스닥",
     "listDate": "2026-06-30",
     "ipoPrice": 14000,
@@ -1333,7 +1333,7 @@
   },
   {
     "name": "매드업",
-    "ticker": "",
+    "ticker": "0039P0",
     "market": "코스닥",
     "listDate": "2026-07-01",
     "ipoPrice": 8000,
@@ -1345,7 +1345,7 @@
   },
   {
     "name": "레몬헬스케어",
-    "ticker": "",
+    "ticker": "365660",
     "market": "코스닥",
     "listDate": "2026-07-06",
     "ipoPrice": 10000,
@@ -1357,7 +1357,7 @@
   },
   {
     "name": "레메디",
-    "ticker": "",
+    "ticker": "387690",
     "market": "코스닥",
     "listDate": "2026-07-13",
     "ipoPrice": 20700,
@@ -1369,7 +1369,7 @@
   },
   {
     "name": "에이치엘지노믹스",
-    "ticker": "",
+    "ticker": "0156T0",
     "market": "코스닥",
     "listDate": "2026-07-24",
     "ipoPrice": 21500,
@@ -1381,7 +1381,7 @@
   },
   {
     "name": "기도산업",
-    "ticker": "",
+    "ticker": "282620",
     "market": "코스닥",
     "listDate": "2026-08-21",
     "ipoPrice": 28400,

@@ -54,6 +54,20 @@ REV_NAMES = {"매출액", "수익(매출액)"}
 OP_NAMES = {"영업이익", "영업이익(손실)"}
 NI_NAMES = {"당기순이익(손실)", "당기순이익"}
 
+# DART의 corpCode.xml 벌크 다운로드는 최근 상장한 일부 종목의 영숫자 종목코드
+# (예: 0007J0)를 아직 반영하지 못하는 경우가 있다 — 개별 기업개황(company.json)
+# 조회로는 종목코드가 정상적으로 확인되는데도 벌크 매핑에는 누락되는 사례.
+# 이런 종목은 corp_code를 직접 알아내서 여기에 등록해두면 벌크 매핑 누락과
+# 상관없이 계속 조회된다. (확인 방법: opendart_get_company_info로 corp_code
+# 조회 시 종목코드가 정상 표시되면 여기에 추가)
+MANUAL_CORP_CODE_OVERRIDES = {
+    "0007J0": "01869710",  # 인벤테라
+    "0011T0": "01279698",  # 채비
+    "0117P0": "01755259",  # 피스피스스튜디오
+    "0039P0": "01379129",  # 매드업
+    "0156T0": "00624244",  # 에이치엘지노믹스
+}
+
 
 def log(msg):
     print(msg, file=sys.stderr, flush=True)
@@ -95,9 +109,11 @@ def load_companies():
     tickers = []
     for x in data:
         t = (x.get("ticker") or "").strip()
-        # DART/KRX 정식 종목코드는 숫자 6자리 — 상장 전 임시코드(영숫자 혼용)는
-        # DART corpCode 매핑에 없는 경우가 대부분이라 건너뛴다.
-        if t and t.isdigit() and len(t) == 6:
+        # 정식 종목코드는 6자리(숫자 또는 영숫자 혼용, 예: 0007J0)다. 영숫자 코드도
+        # DART에 정상 등록된 진짜 종목코드인 경우가 많으므로(벌크 매핑만 누락되는
+        # 것일 뿐) 더 이상 숫자 6자리로만 제한하지 않는다 — MANUAL_CORP_CODE_OVERRIDES
+        # 로 벌크 매핑 누락을 보완한다.
+        if t and len(t) == 6:
             tickers.append(t)
     return sorted(set(tickers))
 
@@ -245,9 +261,10 @@ def main():
         die("환경변수 DART_API_KEY가 설정되어 있지 않습니다. (저장소 Settings → Secrets → Actions 에 등록)")
 
     tickers = load_companies()
-    log(f"종목코드 {len(tickers)}건 로드 (임시코드 제외)")
+    log(f"종목코드 {len(tickers)}건 로드")
 
     corp_map = fetch_corp_codes()
+    corp_map = {**corp_map, **MANUAL_CORP_CODE_OVERRIDES}  # 벌크 매핑 누락 보완(수동 등록분 우선)
     resolved = {t: corp_map[t] for t in tickers if t in corp_map}
     log(f"corp_code 매핑 성공 {len(resolved)}/{len(tickers)}건")
     corp_to_ticker = {v: k for k, v in resolved.items()}
