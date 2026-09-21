@@ -1,471 +1,471 @@
 {
-  "updatedAt": "2026-09-18T07:16:19+00:00",
+  "updatedAt": "2026-09-21T07:17:10+00:00",
   "fetched": 116,
   "total": 116,
   "prices": {
     "031210": {
-      "price": 41150.0,
-      "dayChangePct": -2.72
+      "price": 41450.0,
+      "dayChangePct": 0.73
     },
     "044990": {
-      "price": 10590.0,
-      "dayChangePct": 2.02
+      "price": 10980.0,
+      "dayChangePct": 3.68
     },
     "061090": {
-      "price": 38000.0,
-      "dayChangePct": -0.26
+      "price": 37600.0,
+      "dayChangePct": -1.05
     },
     "064400": {
-      "price": 70400.0,
-      "dayChangePct": 1.88
+      "price": 69600.0,
+      "dayChangePct": -1.42
     },
     "081180": {
-      "price": 6080.0,
-      "dayChangePct": 6.11
+      "price": 6260.0,
+      "dayChangePct": 2.79
     },
     "096250": {
-      "price": 5900.0,
-      "dayChangePct": 8.66
+      "price": 5500.0,
+      "dayChangePct": 0.55
     },
     "098070": {
-      "price": 24700.0,
-      "dayChangePct": 0.2
+      "price": 24300.0,
+      "dayChangePct": -2.21
     },
     "125490": {
-      "price": 11950.0,
-      "dayChangePct": 6.89
+      "price": 12610.0,
+      "dayChangePct": 4.65
     },
     "136150": {
-      "price": 8280.0,
-      "dayChangePct": 5.61
+      "price": 8340.0,
+      "dayChangePct": 0.72
     },
     "153890": {
-      "price": 9990.0,
-      "dayChangePct": -0.6
+      "price": 10180.0,
+      "dayChangePct": 2.11
     },
     "163280": {
-      "price": 3820.0,
-      "dayChangePct": -2.18
+      "price": 3670.0,
+      "dayChangePct": -3.29
     },
     "209640": {
-      "price": 3760.0,
-      "dayChangePct": -1.57
+      "price": 3730.0,
+      "dayChangePct": -1.32
     },
     "212710": {
-      "price": 6790.0,
-      "dayChangePct": 1.34
+      "price": 6660.0,
+      "dayChangePct": -1.91
     },
     "217590": {
-      "price": 14620.0,
-      "dayChangePct": 6.17
+      "price": 14370.0,
+      "dayChangePct": -1.24
     },
     "226590": {
-      "price": 13900.0,
-      "dayChangePct": 8.34
+      "price": 14600.0,
+      "dayChangePct": 6.34
     },
     "234030": {
-      "price": 3480.0,
+      "price": 3490.0,
       "dayChangePct": 0.58
     },
     "240550": {
-      "price": 5890.0,
-      "dayChangePct": 4.8
+      "price": 6320.0,
+      "dayChangePct": 8.4
     },
     "261520": {
-      "price": 5010.0,
-      "dayChangePct": 3.51
+      "price": 5220.0,
+      "dayChangePct": 4.19
     },
     "282620": {
-      "price": 12770.0,
-      "dayChangePct": 1.51
+      "price": 13120.0,
+      "dayChangePct": 3.31
     },
     "287840": {
-      "price": 17140.0,
-      "dayChangePct": 1.18
+      "price": 17300.0,
+      "dayChangePct": 0.87
     },
     "289930": {
-      "price": 7870.0,
-      "dayChangePct": 1.16
+      "price": 7900.0,
+      "dayChangePct": 1.67
     },
     "303810": {
-      "price": 2340.0,
-      "dayChangePct": 1.3
+      "price": 2360.0,
+      "dayChangePct": 1.72
     },
     "308430": {
-      "price": 13420.0,
-      "dayChangePct": -0.37
+      "price": 13530.0,
+      "dayChangePct": 0.74
     },
     "309710": {
       "price": 21000.0,
       "dayChangePct": 0.0
     },
     "317450": {
-      "price": 42550.0,
-      "dayChangePct": 0.59
+      "price": 42300.0,
+      "dayChangePct": -0.59
     },
     "318060": {
-      "price": 16220.0,
-      "dayChangePct": -3.45
+      "price": 16140.0,
+      "dayChangePct": -0.49
     },
     "331740": {
-      "price": 6700.0,
-      "dayChangePct": -0.3
+      "price": 6640.0,
+      "dayChangePct": 2.47
     },
     "336680": {
-      "price": 2985.0,
-      "dayChangePct": 0.17
+      "price": 2975.0,
+      "dayChangePct": -0.34
     },
     "340450": {
-      "price": 6920.0,
-      "dayChangePct": -1.14
+      "price": 6770.0,
+      "dayChangePct": -1.88
     },
     "365660": {
-      "price": 4490.0,
-      "dayChangePct": -0.99
+      "price": 4460.0,
+      "dayChangePct": -0.34
     },
     "373160": {
-      "price": 3060.0,
-      "dayChangePct": -5.56
+      "price": 3145.0,
+      "dayChangePct": 2.78
     },
     "376270": {
-      "price": 33800.0,
-      "dayChangePct": -0.29
-    },
-    "376900": {
-      "price": 28200.0,
-      "dayChangePct": 1.62
-    },
-    "380550": {
-      "price": 6870.0,
+      "price": 33950.0,
       "dayChangePct": 0.15
     },
-    "381620": {
-      "price": 6150.0,
-      "dayChangePct": 1.99
-    },
-    "387570": {
-      "price": 6230.0,
-      "dayChangePct": -0.16
-    },
-    "387690": {
-      "price": 15650.0,
-      "dayChangePct": -1.14
-    },
-    "388210": {
-      "price": 74200.0,
+    "376900": {
+      "price": 29250.0,
       "dayChangePct": 2.63
     },
+    "380550": {
+      "price": 7200.0,
+      "dayChangePct": 4.8
+    },
+    "381620": {
+      "price": 6200.0,
+      "dayChangePct": -0.48
+    },
+    "387570": {
+      "price": 6290.0,
+      "dayChangePct": 0.96
+    },
+    "387690": {
+      "price": 17060.0,
+      "dayChangePct": 9.08
+    },
+    "388210": {
+      "price": 81800.0,
+      "dayChangePct": 10.24
+    },
     "388610": {
-      "price": 5810.0,
-      "dayChangePct": 1.75
+      "price": 5740.0,
+      "dayChangePct": -1.2
     },
     "393970": {
       "price": 2825.0,
       "dayChangePct": 0.0
     },
     "394800": {
-      "price": 4750.0,
-      "dayChangePct": 10.21
+      "price": 4685.0,
+      "dayChangePct": -1.78
     },
     "403850": {
-      "price": 12050.0,
-      "dayChangePct": -2.27
+      "price": 12740.0,
+      "dayChangePct": 5.29
     },
     "413390": {
-      "price": 6250.0,
-      "dayChangePct": -0.95
+      "price": 6190.0,
+      "dayChangePct": -0.96
     },
     "424870": {
-      "price": 3320.0,
-      "dayChangePct": -3.63
+      "price": 3310.0,
+      "dayChangePct": 0.61
     },
     "439260": {
-      "price": 46850.0,
-      "dayChangePct": -0.43
+      "price": 46400.0,
+      "dayChangePct": -0.96
     },
     "444530": {
-      "price": 4690.0,
-      "dayChangePct": -1.88
+      "price": 4705.0,
+      "dayChangePct": 0.32
     },
     "448900": {
-      "price": 56200.0,
-      "dayChangePct": 7.66
+      "price": 56600.0,
+      "dayChangePct": -0.18
     },
     "450950": {
-      "price": 5220.0,
-      "dayChangePct": 0.77
+      "price": 5150.0,
+      "dayChangePct": -1.34
     },
     "452450": {
-      "price": 5280.0,
-      "dayChangePct": 0.38
+      "price": 5190.0,
+      "dayChangePct": -2.08
     },
     "456160": {
-      "price": 31850.0,
-      "dayChangePct": -3.48
+      "price": 31950.0,
+      "dayChangePct": 0.16
     },
     "457370": {
-      "price": 11670.0,
-      "dayChangePct": -7.67
+      "price": 11300.0,
+      "dayChangePct": -3.09
     },
     "458650": {
-      "price": 7630.0,
-      "dayChangePct": 0.93
+      "price": 7640.0,
+      "dayChangePct": 0.26
     },
     "459100": {
-      "price": 4000.0,
-      "dayChangePct": 0.0
+      "price": 3965.0,
+      "dayChangePct": -0.87
     },
     "459510": {
-      "price": 16040.0,
-      "dayChangePct": 0.5
+      "price": 15830.0,
+      "dayChangePct": -1.06
     },
     "462860": {
-      "price": 2610.0,
-      "dayChangePct": 3.98
+      "price": 3080.0,
+      "dayChangePct": 17.56
     },
     "462980": {
-      "price": 1640.0,
-      "dayChangePct": 1.93
+      "price": 1613.0,
+      "dayChangePct": 0.0
     },
     "463020": {
-      "price": 7050.0,
-      "dayChangePct": 4.44
+      "price": 6660.0,
+      "dayChangePct": -5.93
     },
     "463480": {
-      "price": 4385.0,
-      "dayChangePct": 10.45
+      "price": 4130.0,
+      "dayChangePct": -4.51
     },
     "464490": {
-      "price": 4515.0,
-      "dayChangePct": -1.85
+      "price": 4415.0,
+      "dayChangePct": -2.21
     },
     "464500": {
-      "price": 1649.0,
-      "dayChangePct": 2.55
+      "price": 1720.0,
+      "dayChangePct": 4.31
     },
     "464580": {
-      "price": 1545.0,
-      "dayChangePct": 1.64
+      "price": 1529.0,
+      "dayChangePct": -0.71
     },
     "465480": {
-      "price": 3780.0,
-      "dayChangePct": -0.66
+      "price": 4170.0,
+      "dayChangePct": 8.45
     },
     "466100": {
-      "price": 23350.0,
-      "dayChangePct": 1.52
+      "price": 23450.0,
+      "dayChangePct": 0.0
     },
     "466410": {
-      "price": 8500.0,
-      "dayChangePct": 0.71
+      "price": 8550.0,
+      "dayChangePct": 1.3
     },
     "468530": {
-      "price": 35300.0,
-      "dayChangePct": 4.13
+      "price": 38950.0,
+      "dayChangePct": 11.13
     },
     "469610": {
-      "price": 16110.0,
-      "dayChangePct": 2.29
+      "price": 15760.0,
+      "dayChangePct": -2.05
     },
     "473980": {
-      "price": 10510.0,
-      "dayChangePct": 1.25
+      "price": 10530.0,
+      "dayChangePct": 0.19
     },
     "474170": {
-      "price": 7420.0,
-      "dayChangePct": 2.06
+      "price": 7120.0,
+      "dayChangePct": -3.65
     },
     "474650": {
-      "price": 28400.0,
-      "dayChangePct": 5.19
+      "price": 27800.0,
+      "dayChangePct": -1.94
     },
     "475040": {
-      "price": 3325.0,
-      "dayChangePct": -2.64
+      "price": 3205.0,
+      "dayChangePct": -4.04
     },
     "475230": {
-      "price": 10890.0,
-      "dayChangePct": 1.78
+      "price": 10250.0,
+      "dayChangePct": -4.83
     },
     "475400": {
-      "price": 18780.0,
-      "dayChangePct": 2.18
+      "price": 18500.0,
+      "dayChangePct": -1.54
     },
     "475430": {
-      "price": 4425.0,
-      "dayChangePct": 4.0
+      "price": 4270.0,
+      "dayChangePct": -2.29
     },
     "475460": {
-      "price": 2625.0,
-      "dayChangePct": -5.23
+      "price": 2640.0,
+      "dayChangePct": 0.57
     },
     "475560": {
-      "price": 14800.0,
-      "dayChangePct": 2.49
+      "price": 14700.0,
+      "dayChangePct": -0.47
     },
     "475580": {
-      "price": 7670.0,
-      "dayChangePct": -0.39
+      "price": 7720.0,
+      "dayChangePct": -0.64
     },
     "475660": {
       "price": 3260.0,
-      "dayChangePct": 1.56
+      "dayChangePct": 0.0
     },
     "475830": {
-      "price": 37400.0,
-      "dayChangePct": -29.96
+      "price": 26300.0,
+      "dayChangePct": -29.68
     },
     "475960": {
-      "price": 27550.0,
-      "dayChangePct": -1.78
+      "price": 27600.0,
+      "dayChangePct": 0.18
     },
     "476040": {
-      "price": 6370.0,
-      "dayChangePct": 0.63
+      "price": 6250.0,
+      "dayChangePct": -1.88
     },
     "476830": {
-      "price": 26850.0,
-      "dayChangePct": -2.54
+      "price": 26450.0,
+      "dayChangePct": -2.4
     },
     "478340": {
-      "price": 14250.0,
-      "dayChangePct": 2.89
+      "price": 13910.0,
+      "dayChangePct": -3.8
     },
     "479960": {
-      "price": 6090.0,
-      "dayChangePct": 1.16
+      "price": 6080.0,
+      "dayChangePct": 0.0
     },
     "480370": {
-      "price": 2025.0,
-      "dayChangePct": -2.64
+      "price": 1901.0,
+      "dayChangePct": -5.66
     },
     "481070": {
-      "price": 16390.0,
-      "dayChangePct": 6.02
+      "price": 16200.0,
+      "dayChangePct": 1.06
     },
     "482630": {
-      "price": 13120.0,
-      "dayChangePct": -1.87
+      "price": 13830.0,
+      "dayChangePct": 5.17
     },
     "483650": {
-      "price": 181600.0,
-      "dayChangePct": 5.15
+      "price": 182600.0,
+      "dayChangePct": 1.28
     },
     "484120": {
-      "price": 22850.0,
-      "dayChangePct": 6.78
+      "price": 23450.0,
+      "dayChangePct": 0.86
     },
     "484590": {
-      "price": 6740.0,
-      "dayChangePct": 0.45
+      "price": 6480.0,
+      "dayChangePct": -2.26
     },
     "484810": {
-      "price": 12430.0,
-      "dayChangePct": 0.0
+      "price": 12290.0,
+      "dayChangePct": -1.76
     },
     "486990": {
-      "price": 17480.0,
-      "dayChangePct": 1.16
+      "price": 17380.0,
+      "dayChangePct": -0.4
     },
     "488280": {
-      "price": 14440.0,
-      "dayChangePct": 0.21
+      "price": 13810.0,
+      "dayChangePct": -4.43
     },
     "488900": {
-      "price": 11390.0,
-      "dayChangePct": -6.1
+      "price": 10810.0,
+      "dayChangePct": -5.34
     },
     "489460": {
-      "price": 11690.0,
-      "dayChangePct": 2.72
+      "price": 11360.0,
+      "dayChangePct": -2.82
     },
     "489500": {
-      "price": 22150.0,
-      "dayChangePct": 2.31
+      "price": 22600.0,
+      "dayChangePct": 1.8
     },
     "491000": {
-      "price": 29800.0,
-      "dayChangePct": 4.01
+      "price": 29700.0,
+      "dayChangePct": -0.5
     },
     "493790": {
-      "price": 2025.0,
-      "dayChangePct": 0.0
+      "price": 2020.0,
+      "dayChangePct": -0.25
     },
     "494120": {
-      "price": 8140.0,
-      "dayChangePct": -1.33
+      "price": 8000.0,
+      "dayChangePct": -1.72
     },
     "496070": {
-      "price": 1984.0,
-      "dayChangePct": 0.0
+      "price": 1986.0,
+      "dayChangePct": 0.1
     },
     "498390": {
       "price": 2035.0,
       "dayChangePct": 0.0
     },
     "0001A0": {
-      "price": 8790.0,
-      "dayChangePct": 1.5
+      "price": 8580.0,
+      "dayChangePct": -3.05
     },
     "0007C0": {
-      "price": 19740.0,
-      "dayChangePct": -3.94
+      "price": 19120.0,
+      "dayChangePct": -3.43
     },
     "0007J0": {
-      "price": 10240.0,
-      "dayChangePct": -5.62
+      "price": 12680.0,
+      "dayChangePct": 24.93
     },
     "0008Z0": {
-      "price": 23950.0,
-      "dayChangePct": -2.24
+      "price": 23850.0,
+      "dayChangePct": -0.42
     },
     "0009K0": {
-      "price": 21800.0,
-      "dayChangePct": -3.75
+      "price": 21500.0,
+      "dayChangePct": -1.15
     },
     "0010V0": {
-      "price": 8730.0,
-      "dayChangePct": 0.0
+      "price": 8700.0,
+      "dayChangePct": -0.34
     },
     "0011T0": {
-      "price": 5530.0,
-      "dayChangePct": -1.43
+      "price": 5590.0,
+      "dayChangePct": 1.08
     },
     "0013V0": {
-      "price": 5170.0,
-      "dayChangePct": -0.58
-    },
-    "0015G0": {
-      "price": 14620.0,
-      "dayChangePct": -1.08
-    },
-    "0015N0": {
-      "price": 13650.0,
-      "dayChangePct": 1.87
-    },
-    "0015S0": {
-      "price": 8550.0,
-      "dayChangePct": 5.17
-    },
-    "0030R0": {
-      "price": 3745.0,
-      "dayChangePct": 1.22
-    },
-    "0039P0": {
-      "price": 7650.0,
-      "dayChangePct": -3.41
-    },
-    "0115H0": {
-      "price": 1975.0,
+      "price": 5200.0,
       "dayChangePct": 0.0
     },
+    "0015G0": {
+      "price": 14490.0,
+      "dayChangePct": -1.5
+    },
+    "0015N0": {
+      "price": 12300.0,
+      "dayChangePct": -9.36
+    },
+    "0015S0": {
+      "price": 8170.0,
+      "dayChangePct": -4.78
+    },
+    "0030R0": {
+      "price": 3710.0,
+      "dayChangePct": -0.93
+    },
+    "0039P0": {
+      "price": 7670.0,
+      "dayChangePct": -0.39
+    },
+    "0115H0": {
+      "price": 1974.0,
+      "dayChangePct": -0.05
+    },
     "0117P0": {
-      "price": 5580.0,
-      "dayChangePct": 0.18
+      "price": 5560.0,
+      "dayChangePct": -0.36
     },
     "0156T0": {
-      "price": 8600.0,
-      "dayChangePct": -0.58
+      "price": 8450.0,
+      "dayChangePct": -1.05
     }
   }
 }
